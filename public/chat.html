@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+
+    <link rel="stylesheet" href="css/chat-style.css">
+</head>
+
+<body>
+    <div id="chat-wrapper">
+        <!-- <div class="message-wrapper">
+            <div class="message self-message">
+                test
+            </div>
+
+        </div>
+        <div class="message-wrapper">
+            <div class="message other-message">
+                test
+            </div>
+        </div> -->
+    </div>
+
+    <div id="input-container">
+        <div id="input-wrapper">
+            <div id="message-box-wrapper">
+                <textarea id="message-box" rows="1" placeholder="Enter your message..."></textarea>
+            </div>
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <script src="js/chat-script.js"></script>
+</body>
+
+</html>
